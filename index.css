@@ -67,19 +67,12 @@ border-radius: 10px;
 
 
 
-@font-face {
-    font-family: "COCOGOOSE";
-    src: url("/asset/font/Cocogoose_trial.eot") format("eot"), url("/asset/font/Cocogoose_trial.woff") format("woff"), url("/asset/font/Cocogoose_trial.ttf") format("truetype"), url("/asset/font/Cocogoose_trial.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    font-family: 'COCOGOOSE';
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
