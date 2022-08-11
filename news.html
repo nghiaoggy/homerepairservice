@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volunteer - HomeCare</title>
+    <title>HomeCare</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Main CSS + JS -------------------------------------------------->
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/css/about/about.css">
-    <link rel="stylesheet" href="/css/volunteer/volunteer.css">
-
+    <link rel="stylesheet" href="./index.css">
 
     <!-- Bootstrap 5.2 CSS + JS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -26,10 +22,8 @@
 
 <body>
     <!-- Donate -->
-    <div id="donate" class="m-0 p-0 d-flex justify-content-center align-items-center"
-        style="background-color: #FFAA00;">
-        <i class="fa-solid fa-heart fa-xl me-3"></i>
-        <h5 class="text-uppercase d-flex align-items-center" style="color: #FFFFFF; font-size: 1.5rem;">Donate</h5>
+    <div id="donate" class="m-0 p-0 d-flex justify-content-center align-items-center" style="background-color: #FFAA00;">
+        <i class="fa-solid fa-heart fa-xl me-3"></i> <h5 class="text-uppercase d-flex align-items-center"style="color: #FFFFFF; font-size: 1.5rem;">Donate</h5>
     </div>
    <!-- Donate -->
     <div id="donate" class="m-0 p-0 d-flex justify-content-center align-items-center btn" data-bs-toggle="modal"
@@ -192,6 +186,7 @@
 
    
     <!-- Header---------------------------------------------------------->
+     <!-- Header---------------------------------------------------------->
     <header class="sticky-top bg-white w-100">
         <div class="navbar px-2 mynavbar">
             <div class="logo">
@@ -212,28 +207,33 @@
                                 <h5>About</h5><i class="fa-solid fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="/component/About/about.html">About</a>
-                                <a href="/component/About/learntour.html">Lunch and Learn Tour</a>
-                                <a href="/component/About/news.html">News</a>
-                                <a href="/component/About/partners.html">Partners</a>
-                                <a href="/component/About/staff.html">Staff & Board</a>
+                                <a href="/about.html">About</a>
+                                <a href="/learntour.html">Lunch and Learn Tour</a>
+                                <a href="/news.html">News</a>
+                                <a href="/partners.html">Partners</a>
+                                <a href="/staff.html">Staff & Board</a>
                             </div>
                         </li>
                         <li class="dropdown">
                             <button class="dropbtn">
                                 <h5>Services</h5><i class="fa-solid fa-caret-down"></i>
                             </button>
+                            <li class="dropdown">
+                            <button class="dropbtn">
+                                <h5>Services</h5><i class="fa-solid fa-caret-down"></i>
+                            </button>
                             <div class="dropdown-content">
-                                <a href="/component/Services/service.html">Services</a>
-                                <a href="/component/Services/home-repair.html">Home Repairs</a>
-                                <a href="/component/Services/home-accessibility.html">Home Accessibility</a>
-                                <a href="/component/Services/fix-it-school.html">Fix-It-School</a>
-                                <a href="/component/Services/remodeling-together.html">Remodeling Together</a>
-                                <a href="/component/Services/home-maintenance-check-ups.html">Home Maintenance
+                                <a href="/service.html">Services</a>
+                                <a href="/home-repair.html">Home Repairs</a>
+                                <a href="/home-accessibility.html">Home Accessibility</a>
+                                <a href="/fix-it-school.html">Fix-It-School</a>
+                                <a href="/remodeling-together.html">Remodeling Together</a>
+                                <a href="/home-maintenance-check-ups.html">Home Maintenance
                                     Check-Ups</a>
-                                <a href="/component/Services/housing-counseling-and-education.html">Housing Counseling
+                                <a href="/housing-counseling-and-education.html">Housing Counseling
                                     and Education</a>
                             </div>
+                        </li>
                         </li>
                         
                         <li>
@@ -268,120 +268,163 @@
         </div>
     </header>
 
+
     <!-- Body------------------------------------------------------------>
     <section>
         <!-- Cover Image -->
-        <div class="coverImage" style="background-image: url(/img/volunteer/img_cover.jpeg);">
+        <div class="coverImage" style="background-image: url(/img/About/header_p3.jpg);">
             <div class="triangle">
                 <div class="triangle-content">
-                    <h3 class="triangle-title">YOU SHOWED ME YOU CARE</h3>
+                    <h3 class="triangle-title">You showed me freedom without fear</h3>
                 </div>
                 <div class="triangle-bgr" style="background: #ffffff"></div>
                 <div class="triangle-bgr-border"></div>
             </div>
         </div>
 
-        <!-- Volunteer intro -->
-        <div class="volunteer_intro">
-            <div class="about-us justify-content-center">
-                <h2 style="color: #5CB55D; font-size: 50px; line-height: 1.4em;">Volunteer</h2>
-            </div>
-            <p>Strong communities start with you. Come alongside us to see how together, we can
-                strengthen vulnerable homeowners and open gateways to successful and
-                sustainable homeownership. Each year Home Repair Services benefits from
-                thousands of donated hours from dedicated volunteers. Our volunteers serve
-                in a variety of ways and help us extend our resources throughout the community.</p>
+        <!-- Main Body -->
+        <!-- News -->
+        <div class="d-flex justify-content-center flex-column m-5 p-5 align-items-center gap-4">
+            <h2 style="color: #5CB55D; line-height: 1.4em;">News</h2>
+            <h5 style="color: #26428E; font-size: medium;">See what we’ve been up to in the community!</h5>
         </div>
 
-        <!-- Ways You Can Volunteer  -->
-        <div class="ways_container">
-            <div class="ways_title">
-                <h2 style="color: #26428e; font-size: 40px; margin:0;">Ways You Can Volunteer</h2>
-            </div>
-            <div class="about-us">
-                <div class="volunteer-sort">
-                    <div class="item-meet">
-                        <div class="meet-content">
-                            <img src="/img/volunteer/icon_build.png" height="100">
-                        </div>
-                        <div class="meet-content"><br>
-                            Build access ramps
-                        </div>
-                    </div>
-                    <div class="item-meet">
-                        <div class="meet-content">
-                            <img src="/img/volunteer/icon_repair.png" height="100">
-                        </div>
-                        <div class="meet-content"><br>
-                            Home repairs
-                        </div>
-                    </div>
-                    <div class="item-meet">
-                        <div class="meet-content"><br>
-                            <img src="/img/volunteer/icon_administration.png" height="100">
-                        </div>
-                        <div class="meet-content"><br>
-                            Administrative work
-                        </div>
-                    </div>
-                    <div class="item-meet">
-                        <div class="meet-content">
-                            <img src="/img/volunteer/icon_kitchen.png" height="100">
-                        </div>
-                        <div class="meet-content"><br>
-                            Build kitchen cabinets
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="d-flex justify-content-center mb-5 gap-5 text-center">
+            <h2 class="d-flex align-items-center lh-lg" style="color: #5CB55D;">Latest Newsletter</h2>
+            <button type="button" class="btn btn-success">
+                <h4 class="px-2">Download</h4>
+            </button>
         </div>
 
-        <!-- Volunteer button-->
-        <div class="volunteer my-4">
-            <div class="volunteer-sort" style="flex-flow: row-reverse;">
-                <div class="volunteer-img">
-                    <img src="/img/volunteer/img_volunteer.jpeg" width="100%" height="100%">
+        <!-- Product Cards -->
+        <div class="boxalign">
+            <div class="boxpos">
+                <div class="coverImage" style="background-image: url(/img/About/New1.jpg);">
                 </div>
-                <div class="volunteer-content">
-                    <div class="volunteer-triangle">
-                        <div class="volunteer-triangle-bgr"></div>
+                <div class="infobox" style="background: #FFAA00;">
+                    <div class="info-triangle">
+                        <div class="triangle-info-bgr" style="background: #FFAA00;"></div>
+                        <div class="triangle-info-bgr-border" style="background: #FFAA00;"></div>
                     </div>
-                    <div class="m-5 p-3" style="margin: 0!important;">
-                        <h1 class="mytext lh-lg" style="color: #26428E; font-size: 50px!important;">You showed me I can make a difference in our community.</h1>
-                        <button type="button" class="btn btn-success btn-lg mt-5"
-                            style="display: flex; justify-content: center;">
-                            <span class="text-uppercase fw-bold text-center" style="color: #FFFFFF;"> Volunteer 
-                            </span>
-                        </button>
+                    <h2 class="infobox-title mx-4 mt-5">One Good Thing: Neighborhood Strong Home Repair Grant</h2>
+                    <div class="infobox-content mx-4 mt-3 fs-4">
+                        WZZM 13
                     </div>
+                    <button type="button" class="btn btn-success mx-4 mt-5">
+                        <span class="support fs-3 p-3"> Read Article
+                        </span>
+                    </button>
                 </div>
             </div>
-        </div>
-        <!-- Lunch & Learn Tour -->
-        <div class="volunteer my-4">
-            <div class="volunteer-sort" style="flex-flow: row;">
-                <div class="volunteer-img">
-                    <img src="/img/About/logopage1.jpg" width="100%" height="100%">
+            <div class="boxpos">
+                <div class="coverImage" style="background-image: url(/img/About/New2.jpg);">
                 </div>
-                <div class="volunteer-content">
-                    <div class="lunch-triangle">
-                        <div class="lunch-triangle-bgr"></div>
+                <div class="infobox" style="background: #26428E;">
+                    <div class="info-triangle">
+                        <div class="triangle-info-bgr" style="background:#26428E;"></div>
+                        <div class="triangle-info-bgr-border" style="background: #26428E;"></div>
                     </div>
-                    <div class="m-5 p-3">
-                        <h1 class="mytext lh-lg" style="color: #26428E;">Lunch & Learn Tour</h1>
-                        <div style="font-family: sans-serif; color: #26428E; font-size: x-large;">Do you want to learn
-                            more about the resources Home Repair Services offers homeowners? Join us for a Lunch and
-                            Learn Tour to get a deeper look at who we are and what we do.</div>
-                        <button type="button" class="btn btn-success btn-lg mt-5"
-                            style="display: flex; justify-content: center;">
-                            <span class="text-uppercase fw-bold text-center" style="color: #FFFFFF;"> Register
-                            </span>
-                        </button>
+                    <h2 class="infobox-title mx-4 mt-5">Here’s how to securely install a lockset in your home</h2>
+                    <div class="infobox-content mx-4 mt-3 fs-4"> WOOD TV
                     </div>
+                    <button type="button" class="btn btn-success mx-4 mt-5">
+                        <span class="support fs-3 p-3"> Read Article
+                        </span>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="boxpos">
+                <div class="coverImage" style="background-image: url(/img/About/New3.jpg);">
+                </div>
+                <div class="infobox" style="background: #F1744F;">
+                    <div class="info-triangle">
+                        <div class="triangle-info-bgr" style="background: #F1744F;"></div>
+                        <div class="triangle-info-bgr-border" style="background:#F1744F;"></div>
+                    </div>
+                    <h2 class="infobox-title mx-4 mt-5">Fix-It School Rookie Renovator Workshops in Kent County</h2>
+                    <div class="infobox-content mx-4 mt-3 fs-4"> FOX 17
+                    </div>
+                    <button type="button" class="btn btn-success mx-4 mt-5">
+                        <span class="support fs-3 p-3"> Read Article
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>
 
+        <!-- Sign Up -->
+        <div class="about-us bg-light mt-5 justify-content-center flex-column align-items-center">
+            <h2 style="color: #26428E; font-size: 32px; line-height: 1.4em;">Sign Up for Our Newsletter</h2>
+            <button type="button" class="btn btn-success mx-4 mt-3">
+                <span class="support fs-3 p-3"> Sign Up
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer---------------------------------------------------------->
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-lg-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <img src="/img/Hompage/HRS_Logo_White.svg">
+                            <img src="/img/Hompage/charitynavigator_logo_white.svg" width="50%">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <ul class="list-unstyled f_list">
+                                <li><p>1100 South Division Avenue Grand Rapids, Michigan 49507</p></li>
+                                <li><p>(616) 241-2601</p></li>
+                                <li><p>info@homerepairservices.org</p></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Reponsive de phan cho navbar -->
+                    <div class="col-lg-3 col-md-6 mt-2">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title fw-bold">Hours of Operation:</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><p>Monday – Thursday: 9 AM – 5 PM</p></li>
+                                <li><p>Friday: 9 AM – 1 PM</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h3 class="f-title fw-bold w-100" style="color: #FFAA00;">Sign up for our Newletter!</h3>
+                            <button class="btn rounded-4 btn-lg mb-2" style="background-color: #FFAA00;"><a href="#">Sign Up</a></button>
+                            <ul class="f_social_icon list-group list-unstyled list-group-horizontal gap-2">
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><i
+                                    class="fa-brands fa-facebook-square fa-2xl" style="color: rgb(60, 90, 154);"></i></a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">
+                                <i class="fa-brands fa-instagram fa-2xl insta"> </i></a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><i
+                                    class="fa-brands fa-twitter-square fa-2xl" style="color: #00aced;"></i></a></li>
+                                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"><i
+                                    class="fa-brands fa-google-plus-square fa-2xl" style="color: #E34429;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="fw-bolder">© HomeCare Inc.. 2022 All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Made with <i class="icon_heart"></i> in <a href="#">HomeCare</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>

@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Repair</title>
+    <title>HomeCare</title>
     <link rel="icon" type="image/x-icon" href="asset/logo/favicon.jpg">
     <!-- Main CSS + JS -------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="/css/services/service.css">
+    <script src="/js/service.js"></script>
+    <script src="./index.css"></script>
+
 
     <!-- Bootstrap 5.2 CSS + JS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,7 +26,7 @@
 </head>
 
 <body>
-    <!-- Donate -->
+     <!-- Donate -->
     <div id="donate" class="m-0 p-0 d-flex justify-content-center align-items-center btn" data-bs-toggle="modal"
         style="background-color: #FFAA00;" data-bs-target="#donateModal">
         <a class="text-uppercase text-decoration-none" style="color: #FFFFFF;" data-bs-toggle="modal"><span><i
@@ -183,7 +187,7 @@
 
    
     <!-- Header---------------------------------------------------------->
-     <section>
+      <section>
         <header class="sticky-top bg-white w-100">
             <div class="navbar px-2 mynavbar">
                 <div class="logo">
@@ -216,14 +220,14 @@
                                     <h5>Services</h5><i class="fa-solid fa-caret-down"></i>
                                 </button>
                                 <div class="dropdown-content">
-                                    <a href="/component/Services/service.html">Services</a>
-                                    <a href="/component/Services/home-repair.html">Home Repairs</a>
-                                    <a href="/component/Services/home-accessibility.html">Home Accessibility</a>
-                                    <a href="/component/Services/fix-it-school.html">Fix-It-School</a>
-                                    <a href="/component/Services/remodeling-together.html">Remodeling Together</a>
-                                    <a href="/component/Services/home-maintenance-check-ups.html">Home Maintenance
+                                    <a href="/service.html">Services</a>
+                                    <a href="/home-repair.html">Home Repairs</a>
+                                    <a href="/home-accessibility.html">Home Accessibility</a>
+                                    <a href="/fix-it-school.html">Fix-It-School</a>
+                                    <a href="/remodeling-together.html">Remodeling Together</a>
+                                    <a href="/home-maintenance-check-ups.html">Home Maintenance
                                         Check-Ups</a>
-                                    <a href="./component/Services/housing-counseling-and-education.html">Housing Counseling
+                                    <a href="/housing-counseling-and-education.html">Housing Counseling
                                         and Education</a>
                                 </div>
                             </li>
@@ -264,13 +268,10 @@
     <!-- Body------------------------------------------------------------>
     <section>
         <!-- Cover Image -->
-        <div class="coverImage mt-0 mt-md-5 pt-0 pt-md-5" style="background-image: url(/asset/img/cover2.jpg);">
+        <div class="coverImage mt-0 mt-md-5 pt-0 pt-md-5" style="background-image: url(/asset/img/cover1.jpg);">
             <div class="triangle">
                 <div class="triangle-content">
-                    <h3 class="triangle-title">
-                        You showed me I
-                        <br>
-                        can feel safe in my home</h3>
+                    <h3 class="triangle-title">You showed me I can do this</h3>
                 </div>
                 <div class="triangle-bgr" style="background: #ffffff"></div>
                 <div class="triangle-bgr-border"></div>
@@ -281,204 +282,142 @@
         <div class="container-fluid">
             <div class="bodyHeader">
                 <div class="container p-1 p-md-5 text-center">
-                    <h1><i class="fa-solid fa-screwdriver-wrench "></i></h1>
-                    <h2>Home Repair</h2>
-                    <p>Our Repair Team performs critical home repairs that impact a resident’s health and safety.
-                        Examples include plumbing, electrical, roofing, heating, and more. A co-payment is required for
-                        each completed repair and is based on household income and total job cost.</p>
+                    <h2>Our Services</h2>
+                    <p>Through the generosity of our community, Home Repair Services provides critical repairs,
+                        inspections, accessibility modifications, education, and financial counseling for Kent County
+                        homeowners.</p>
                 </div>
             </div>
         </div>
-
-        <div class="incomeValid py-5">
+        <!-- Service Selection -->
+        <div class="servicesSelect">
             <div class="container">
-                <div class="text-center">
-                    <p class="m-0">
-                        Use the tool below to see if you qualify for our income based
-                        <br>
-                        services, or click <strong><a href="/asset/pdf/IncomeLimit.pdf"
-                                style="color:var(--prime2)">HERE</a></strong> to view the current income limits table.
-                    </p>
-                </div>
+                <div class="row row-cols-1 row-cols-lg-3 g-1 g-lg-5">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss1.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-screwdriver-wrench"></i></h2>
+                                <h2>Home Repairs</h2>
+                                <div>
+                                    <p>We offer critical repairs when health or safety are at risk.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>Kent County homeowner
+                                        <br>
+                                        Low-moderate income</p>
+                                </div>
+                                <a href="http://">Learn More</a>
 
-                <div class="container p-1 p-md-5">
-                    <div class="row row-cols-1 row-cols-lg-2 g-1 g-lg-2">
-                        <div class="col">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="homeOwned" checked>
-                                <label class="form-check-label" for="homeOwned">
-                                    I own my home
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="age">
-                                <label class="form-check-label" for="age">
-                                    I’m over 60 years old
-                                </label>
                             </div>
                         </div>
                     </div>
 
-                    <div class="container slide p-1 p-lg-5">
-                        <div id="rangeHH" class="slide-range mb-5">
-                            <h3>Household Size: </h3>
-                            <input type="range" min="1" max="8" value="1" class="slider" id="houseHold">
-                        </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss2.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-house-chimney"></i></h2>
+                                <h2>Home Accessibility</h2>
+                                <div>
+                                    <p>We offer critical repairs when health or safety are at risk.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>Kent County homeowner
+                                        <br>
+                                        Limited mobility
+                                        <br>
+                                        Low-moderate income</p>
+                                </div>
+                                <a href="http://">Learn More</a>
 
-                        <div id="rangeI" class="slide-range mb-5">
-                            <h3>My Income: </h3>
-                            <input type="range" min="0" max="100000" value="10000" class="slider" id="income">
-                        </div>
-
-                        <div class="result result-T p-5">
-                            <h2><strong>You may qualify!</strong></h2>
-                            <p>Based on the information you entered you are eligible for our Home Accessibility
-                                services. Please call us at (616) 241-2601 or visit our <a href=""><strong><u>Contact
-                                            Us</u></strong></a> page to inquire about registering.</p>
-                        </div>
-
-                        <div class="result result-F p-5 d-none">
-                            <h2><strong>Sorry, you don't qualify</strong></h2>
-                            <p>*Please check the income table link above for updated limits.</p>
-                            <p>Unfortunately, based on the information you entered you are ineligible for our Home
-                                Repairs program. *However, if you are a homeowner without working heat in your home,
-                                please call us at (616) 241-2601 or visit our <a href=""><strong><u>Contact Us</u></strong></a> page to inquire about other ways Home Repair Services
-                                can assist you.*</p>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss3.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-person-chalkboard"></i></h2>
+                                <h2>Fix It School</h2>
+                                <div>
+                                    <p>We offer free hands-on workshops on various home repair and maintenance topics from basic plumbing to tile installation.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>The desire to learn how to do-it-yourself!</p>
+                                </div>
+                                <a href="http://">Learn More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss4.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-handshake"></i></h2>
+                                <h2>Remodeling Together</h2>
+                                <div>
+                                    <p>We provide free design service and discounted kitchen materials for your DIY kitchen project.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>Kent County homeowner</p>
+                                </div>
+                                <a href="http://">Learn More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss5.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-list-check"></i></h2>
+                                <h2>Home Maintenance Check-ups</h2>
+                                <div>
+                                    <p>We offer a free educational inspection service for existing homeowners interested in learning about the health and safety of their home.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>Kent County homeowner</p>
+                                </div>
+                                <a href="http://">Learn More</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/asset/img/ss6.jpg" class="card-img-top" alt="" srcset="">
+                            <div class="card-body">
+                                <h2><i class="fa-solid fa-book-open-reader"></i></h2>
+                                <h2>Housing Counseling & Education</h2>
+                                <div>
+                                    <p>We offer foreclosure prevention counseling, reverse mortgage counseling, and group financial education workshops.</p>
+                                    <p><strong><u>General Requirements </u></strong></p>
+                                    <p>Open to the community</p>
+                                </div>
+                                <a href="http://">Learn More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-
-
-        <div class="requirement container-fluid p-2 p-lg-5">
-            <a data-bs-toggle="collapse" href="#requirementCollapse" class="text-center">
-                <span><i class="fa-solid fa-angle-right me-3"></i>See Requirements</span>
-            </a>
-            <div class="collapse" id="requirementCollapse">
-                <h4>Are you in need of a critical repair? <br>See registration requirements below:</h4>
-                <ul>
-                    <li>
-                        <h5>Homeowner (owner occupied residences only) located in Kent County</h5>
-                    </li>
-                    <li>
-                        <h5>Meet income eligibility requirements based on household size</h5>
-                    </li>
-                    <li>
-                        <h5>Ability to provide the following documentation:</h5>
-                        <ul>
-                            <li>Proof of Ownership: A deed, land contract, mortgage document, or mobile home title</li>
-                            <li>Your Michigan driver’s license or Michigan Identification card</li>
-                            <li>Your most recent pay stub (if applicable)</li>
-                            <li>Your latest federal &amp; state tax return with all W-2’s, schedules, IRS Form 1099 for
-                                pension, <br>or self-employment income (if applicable)</li>
-                            <li>Your current Social Security Administration Annual Awards Benefit Letter (if applicable)
-                            </li>
-                            <li>Food and/or cash assistance award letter (if available)</li>
-                            <li>Your Friend-of-the-Court verification documents (if applicable)</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>&nbsp;</p>
-                <p><strong>Are you in need of furnace repair or replacement? These jobs are open to any Kent County
-                        homeowner with a household income of 80% AMI or less. Click <span
-                            style="text-decoration: underline; color: #000080;"><a
-                                style="color: #000080; text-decoration: underline;"
-                                href="https://www.homerepairservices.org/wp-content/uploads/2021/05/Income-Limits-4-2021-Intake-and-Office-AMI-Included.pdf">HERE</a></span>
-                        to view the current income limits table.</strong></p>
-
-            </div>
-        </div>
-
-        <div class="participating container-fluid text-center d-grid gap-5">
-            <div class="firstTime container p-5 p-md-5">
-                <h3>First Time Clients</h3>
-                <p>Is this your first time seeking this service? Contact us to inquire about registering. </p>
-                <br>
-                <a href="#">Contact Us</a>
-            </div>
-
-            <div class="existedClient container p-5 p-md-5">
-                <h3>Existing Clients</h3>
-                <p>Are you a past or existing HRS client? </p>
-                <br>
-                <a href="#">Re-register here</a>
-            </div>
-
-            <div class="senior container p-5 p-md-5">
-                <h3>Seniors</h3>
-                <p>If you are a senior (age 60+) seeking services and do not have transportation, our partners at Senior Neighbors can provide assistance in registering. </p>
-                <br>
-                <a href="#">Senior Neighbor</a>
-            </div>
-
-
-        </div>
-
 
         <div class="promo container-fluid ">
             <div class="row row-cols-1 row-cols-md-2">
-                <div class="col promo_info p-5 fa-xl">
+                <div class="col promo_info p-5">
                     <div class="container">
-                        <h1><i class="fa-solid fa-quote-left"></i></h1>
-                        <p>"If it wasn’t for Home Repair Services, this house would be a vacant lot just like those next door.”</p>
-                        <h10> - David Washington, Client</h10>
+                        <h1>You can do this</h1>
+                        <p>Do you have time or a talent that you would like to share to further the mission of Home Repair Services? </p>
                     </div>
+                    <a href="http://" class="ps-5">Volunteer</a>
                 </div>
                 <div class="col promo_img m-0 p-0">
-                    <img src="/asset/img/promo2.jpg" alt="" srcset="">
+                    <img src="/asset/img/promo1.jpg" alt="" srcset="">
                 </div>
             </div>
-        </div>
-
-        <div id="impact" class="container-fluid mt-5">
-            <div class="container text-center">
-                <h1><i class="fa-solid fa-screwdriver-wrench"></i></h1>
-                <h3>Home Repairs 2020 Impact</h3>
-            </div>
-
-            <div class="container my-5">
-                <div class="row g-3 text-center my-3">
-                    <div class="col">
-                        <h2  id="impactNo"> 1,525 </h2>
-                        <p>Health & safety jobs completed</p>
-                    </div>
-
-                    <div class="col">
-                        <h2  id="impactNo">  292 </h2>
-                        <p>Furnaces repaired or replaced</p>
-                    </div>
-
-                    <div class="col">
-                        <h2  id="impactNo">  171  </h2>
-                        <p>Roofs repaired or replaced</p>
-                    </div>
-
-                    <div class="col">
-                        <h2  id="impactNo">  94 </h2>
-                        <p>Electrical repairs</p>
-                    </div>
-                </div>
-
-                <div class="row g-3 text-center my-3">
-                    <div class="col">
-                        <h2  id="impactNo">  33  </h2>
-                        <p>Main drain cleanouts</p>
-                    </div>
-                    <div class="col">
-                        <h2  id="impactNo">  106  </h2>
-                        <p>Water heaters repaired or replaced</p>
-                    </div>
-                    <div class="col">
-                        <h2  id="impactNo">  460  </h2>
-                        <p>General plumbing repairs</p>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
 
