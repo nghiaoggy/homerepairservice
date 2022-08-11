@@ -92,6 +92,30 @@ div {
     border-radius: 15px;
 }
 
+#donatemodal {
+    position: relative;
+    box-sizing: border-box;
+}
+#donateModal .nav-pills .nav-link.active{
+    background-color: var(--prime1) !important;
+    color: white !important;
+}
+
+#donateModal .donate-select >*{
+    border-radius: 0.25rem;
+}
+
+#donateModal .donate-select >*:hover{
+    color: white;
+    background-color: var(--prime1);
+}
+
+#donateModal .donate-select >*:active{
+    color: white;
+    background-color: var(--prime1);
+}
+
+
 /* Header */
 header {
     z-index: 1;
